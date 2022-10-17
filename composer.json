@@ -1,0 +1,19 @@
+{
+    "name": "tushar/hello-composer",
+    "description": "A simple hello world composer package",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Tushar\\HelloComposer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Tushar Lathiya",
+            "email": "tlathiya@boostmyshop.in"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
